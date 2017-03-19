@@ -28,6 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="87">
               <caret line="375" column="96" lean-forward="false" selection-start-line="375" selection-start-column="96" selection-end-line="375" selection-end-column="96" />
               <folding>
@@ -68,6 +69,11 @@
                 <element signature="n#style#0;n#path#3;n#g#5;n#svg#0;n#g#0;n#svg#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#path#5;n#g#5;n#svg#0;n#g#0;n#svg#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="682">
+              <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+              <folding />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
             </state>
           </provider>
         </entry>
@@ -85,16 +91,22 @@
       <file leaf-file-name="panel_04.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/panel_04.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="4100">
               <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+=======
+            <state relative-caret-position="280">
+              <caret line="161" column="43" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="161" selection-end-column="43" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#5843#6978#0" expanded="false" />
+                <element signature="e#5804#6939#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,6 +124,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
       <file leaf-file-name="panel_04.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/panel_04.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,18 +139,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="principal.JPG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/principal.JPG">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="panel_04.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/panel_04.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="350">
               <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+=======
+            <state relative-caret-position="220">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
               <folding />
             </state>
           </provider>
@@ -175,7 +187,15 @@
       <find>name</find>
       <find>d.name</find>
       <find>append(&quot;text&quot;)</find>
+      <find>/data</find>
+      <find>json</find>
+      <find>main.</find>
+      <find>SIF</find>
     </findStrings>
+    <replaceStrings>
+      <replace>img</replace>
+      <replace>/img</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,9 +203,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style/panel_04.css" />
         <option value="$PROJECT_DIR$/data/IMG_6981.svgz" />
         <option value="$PROJECT_DIR$/data/panel_04.json" />
+        <option value="$PROJECT_DIR$/style/panel_04.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/panel_04.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/index.css" />
@@ -243,7 +264,53 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="style" />
+<<<<<<< HEAD
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+=======
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sif-myanmar-english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -263,6 +330,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fara Aileen\FSF2017R01\pcp\sif-myanmar-english\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fara Aileen\FSF2017R01\pcp\sif-myanmar-english\style" />
       <recent name="C:\Users\Fara Aileen\FSF2017R01\pcp\sif-myanmar-english\data" />
@@ -343,13 +413,21 @@
       <updated>1489825298986</updated>
       <workItem from="1489825300482" duration="16710000" />
       <workItem from="1489849744547" duration="14172000" />
+<<<<<<< HEAD
       <workItem from="1489890697710" duration="10090000" />
       <workItem from="1489903125709" duration="1581000" />
+=======
+      <workItem from="1489890697710" duration="12604000" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="42553000" />
+=======
+    <option name="totallyTimeSpent" value="43486000" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="58" width="1859" height="964" extended-state="0" />
@@ -358,10 +436,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26542163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33027524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24278846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,7 +455,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -537,7 +622,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#5843#6978#0" expanded="false" />
+            <element signature="e#5804#6939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,7 +697,7 @@
           <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#5843#6978#0" expanded="false" />
+            <element signature="e#5804#6939#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,6 +728,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/style/panel_04.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -651,6 +737,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
     <entry file="file://$PROJECT_DIR$/data/volunteer.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -659,6 +747,22 @@
     <entry file="file://$PROJECT_DIR$/data/principal.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/panel_04.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/panel_04.json">
@@ -674,6 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/panel_04.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="4100">
           <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding>
@@ -695,12 +800,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+=======
+        <state relative-caret-position="682">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="87">
           <caret line="375" column="96" lean-forward="false" selection-start-line="375" selection-start-column="96" selection-end-line="375" selection-end-column="96" />
           <folding>
@@ -740,6 +850,13 @@
             <element signature="n#style#0;n#path#1;n#g#5;n#svg#0;n#g#0;n#svg#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#3;n#g#5;n#svg#0;n#g#0;n#svg#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#5;n#g#5;n#svg#0;n#g#0;n#svg#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="280">
+          <caret line="161" column="43" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="161" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5804#6939#0" expanded="false" />
+>>>>>>> 8eb39fa06c2a1f584fa9d8376864d1eabd91ccd9
           </folding>
         </state>
       </provider>

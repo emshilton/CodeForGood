@@ -17,3 +17,9 @@
     stroke: #ccc;
     stroke-width: 1.5px;
 }
+
+.specialback {
+    background-image: url("../img/panel_04_back.jpg");
+    width: 599px;
+    height: 599px;
+}

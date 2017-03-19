@@ -1,5 +1,5 @@
 (function () {
-    var p = [317, 584.2];
+    var p = [170, 470];
     var r1 = 'rotate(30,' + p[0] + ',' + p[1] + ')';
     var r2 = 'rotate(45,' + p[0] + ',' + p[1] + ')';
     var r3 = 'rotate(90,' + p[0] + ',' + p[1] + ')';
@@ -22,7 +22,7 @@
         sparkRight
             .transition()
             .delay(10)
-            .duration(200)
+            .duration(300)
             .attr("opacity", function(){
                 isZero = !isZero;
                 return isZero ? 1 : 0;

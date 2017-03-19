@@ -151,7 +151,7 @@
 
         nodeEnter.append("text")
             .attr("y", function (d) {
-                return d.children || d._children ? -18 : 18;
+                return d.children || d._children ? 15 : 18;
             })
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
@@ -160,7 +160,13 @@
                 if (d.name == "SIFVolunteer")
                     return "SIF Volunteer";
             })
-            .style("fill-opacity", 1e-6);
+            .attr("transform", function () {
+                return "translate(" + 120 + "," + 0 + ")";
+            })
+            .style("font-size", "30px")
+            .style("font-family", "MD")
+            .style("fill-opacity", 1e-6)
+
 
 
         // Transition nodes to their new position.

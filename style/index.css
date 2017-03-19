@@ -7,7 +7,7 @@ body{
     background-color: #212121;
 }
 .main-container{
-    max-width: 1240px;
+    max-width: 1260px;
     margin: auto;
     padding: 0;
     border: 10px solid black;
@@ -26,4 +26,32 @@ body{
 @font-face {
     font-family:"ChalkDash";
     src: url("../ChalkDash.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family:"MD";
+    src: url("../MD.otf") /* TTF file for CSS3 browsers */
+}
+
+#title{
+    height: 70px;
+    font-family:"MD";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#subTitle{
+    height: 100px;
+    font-family:"MD";
+    color: deepskyblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#theEnd{
+    background-color: black;
+    font-family:"MD";
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }

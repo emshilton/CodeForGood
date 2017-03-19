@@ -84,7 +84,6 @@
                     }
                 }
 
-
                 root.children.forEach(expand);
                 update(root);
 //                console.log(root);
@@ -122,30 +121,30 @@
                 console.log("source: " + source.x0 + " " + source.y0);
                 switch (d.name) {
                     case "SIFVolunteer":
-                        imgLink = "./data/volunteer.png";
+                        imgLink = "./img/volunteer.png";
                         break;
                     case "Principal":
-                        imgLink = "./data/principal.png";
+                        imgLink = "./img/principal.png";
                         break;
                     case "Teacher":
-                        imgLink = "./data/teacher.png";
+                        imgLink = "./img/teacher.png";
                         break;
                     case "Kid":
-                        imgLink = "./data/pupil1.png";
+                        imgLink = "./img/pupil1.png";
                         break;
                     default:
-                        imgLink = "./data/teacher.JPG";
+                        imgLink = "./img/teacher.png";
                 }
                 return imgLink;
 
             })
-            .attr("width", 30)
-            .attr("height", 40)
+            .attr("width", 60)
+            .attr("height", 80)
             .attr("transform", function (d) {
-                return "translate(" + -15 + "," + 0 + ")";
+                return "translate(" + -25 + "," + 0 + ")";
             })
             .attr("y", function (d) {
-                return -18;
+                return -25;
 //                return d.children || d._children ? -18 : 18;
             });
 
@@ -157,9 +156,9 @@
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
             .text(function (d) {
-                return d.name;
-//                if (d.name == "SIFVolunteer")
-//                    return "SIF Volunteer";
+
+                if (d.name == "SIFVolunteer")
+                    return "SIF Volunteer";
             })
             .style("fill-opacity", 1e-6);
 
@@ -272,30 +271,30 @@
                 console.log("source: " + source.x0 + " " + source.y0);
                 switch (d.name) {
                     case "SIFVolunteer":
-                        imgLink = "./data/volunteer.png";
+                        imgLink = "./img/volunteer.png";
                         break;
                     case "Principal":
-                        imgLink = "./data/principal.png";
+                        imgLink = "./img/principal.png";
                         break;
                     case "Teacher":
-                        imgLink = "./data/teacher.png";
+                        imgLink = "./img/teacher.png";
                         break;
                     case "Kid":
-                        imgLink = "./data/pupil1.png";
+                        imgLink = "./img/pupil1.png";
                         break;
                     default:
-                        imgLink = "./data/teacher.png";
+                        imgLink = "./img/teacher.png";
                 }
                 return imgLink;
 
             })
-            .attr("width", 30)
-            .attr("height", 40)
+            .attr("width", 45)
+            .attr("height", 60)
             .attr("transform", function (d) {
-                return "translate(" + -15 + "," + 0 + ")";
+                return "translate(" + -25 + "," + 0 + ")";
             })
             .attr("y", function (d) {
-                return -18;
+                return -20;
 //                return d.children || d._children ? -18 : 18;
             });
 

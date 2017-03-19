@@ -114,21 +114,24 @@
             .attr("xlink:href", function (d) {
                 var imgLink;
                 console.log("name: " + d.name);
+                console.log("d.x0: " + d.x0);
+                console.log("d.y0: " + d.y0);
+                console.log("d.x: " + d.x);
                 console.log("d.y: " + d.y);
                 console.log("d.depth: " + d.depth);
                 console.log("source: " + source.x0 + " " + source.y0);
                 switch (d.name) {
                     case "SIFVolunteer":
-                        imgLink = "./data/volunteer.JPG";
+                        imgLink = "./data/volunteer.png";
                         break;
                     case "Principal":
-                        imgLink = "./data/principal.JPG";
+                        imgLink = "./data/principal.png";
                         break;
                     case "Teacher":
-                        imgLink = "./data/teacher.JPG";
+                        imgLink = "./data/teacher.png";
                         break;
                     case "Kid":
-                        imgLink = "./data/pupil1.JPG";
+                        imgLink = "./data/pupil1.png";
                         break;
                     default:
                         imgLink = "./data/teacher.JPG";
@@ -137,7 +140,14 @@
 
             })
             .attr("width", 30)
-            .attr("height", 40);
+            .attr("height", 40)
+            .attr("transform", function (d) {
+                return "translate(" + -15 + "," + 0 + ")";
+            })
+            .attr("y", function (d) {
+                return -18;
+//                return d.children || d._children ? -18 : 18;
+            });
 
 
         nodeEnter.append("text")
@@ -148,6 +158,8 @@
             .attr("text-anchor", "middle")
             .text(function (d) {
                 return d.name;
+//                if (d.name == "SIFVolunteer")
+//                    return "SIF Volunteer";
             })
             .style("fill-opacity", 1e-6);
 
@@ -254,42 +266,39 @@
             .attr("xlink:href", function (d) {
                 var imgLink;
                 console.log("name: " + d.name);
+                console.log("d.x: " + d.x);
                 console.log("d.y: " + d.y);
                 console.log("d.depth: " + d.depth);
                 console.log("source: " + source.x0 + " " + source.y0);
                 switch (d.name) {
                     case "SIFVolunteer":
-                        imgLink = "./data/volunteer.JPG";
+                        imgLink = "./data/volunteer.png";
                         break;
                     case "Principal":
-                        imgLink = "./data/principal.JPG";
+                        imgLink = "./data/principal.png";
                         break;
                     case "Teacher":
-                        imgLink = "./data/teacher.JPG";
+                        imgLink = "./data/teacher.png";
                         break;
                     case "Kid":
-                        imgLink = "./data/pupil1.JPG";
+                        imgLink = "./data/pupil1.png";
                         break;
                     default:
-                        imgLink = "./data/teacher.JPG";
+                        imgLink = "./data/teacher.png";
                 }
                 return imgLink;
 
             })
             .attr("width", 30)
-            .attr("height", 40);
-
-        nodeEnter.append("text")
+            .attr("height", 40)
+            .attr("transform", function (d) {
+                return "translate(" + -15 + "," + 0 + ")";
+            })
             .attr("y", function (d) {
-                return d.children || d._children ? -18 : 18;
-            })
-            .attr("dy", ".35em")
-            .attr("text-anchor", "middle")
-            .text(function (d) {
-                console.log("in var nodeEnter.append text");
-                return d.name;
-            })
-            .style("fill-opacity", 1e-6);
+                return -18;
+//                return d.children || d._children ? -18 : 18;
+            });
+
 
 
         // Transition nodes to their new position.

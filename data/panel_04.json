@@ -1,0 +1,80 @@
+{
+  "name": "SIFVolunteer",
+  "children": [
+    {
+      "name": "Principal",
+      "children": [
+        {
+          "name": "Teacher",
+          "children": [
+            {"name": "Teacher",
+              "children": [
+                {"name": "Kid", "size": 3812},
+                {"name": "Kid", "size": 6714},
+                {"name": "Kid", "size": 743}
+              ]
+            },
+            {"name": "Kid", "size": 3812},
+            {"name": "Kid", "size": 6714},
+            {"name": "Kid", "size": 743}
+          ]
+        },
+        {
+          "name": "Principal",
+          "children": [
+            {"name": "Principal",
+              "children": [
+                {"name": "Teacher",
+                  "children": [
+                    {"name": "Kid", "size": 3812},
+                    {"name": "Kid", "size": 6714},
+                    {"name": "Kid", "size": 743},
+                    {"name": "Kid", "size": 743}
+                  ]
+                },
+                {"name": "Teacher",
+                  "children": [
+                    {"name": "Kid", "size": 3812},
+                    {"name": "Kid", "size": 743}
+                  ]
+                }
+              ]
+            },
+            {"name": "Teacher",
+              "children": [
+                {"name": "Kid", "size": 3812},
+                {"name": "Kid", "size": 743}
+              ]
+            },
+            {"name": "Teacher",
+              "children": [
+                {"name": "Kid", "size": 3812},
+                {"name": "Kid", "size": 743}
+              ]
+            },
+            {"name": "Teacher",
+              "children": [
+                {"name": "Kid", "size": 3812},
+                {"name": "Kid", "size": 743}
+              ]
+            },
+            {"name": "Teacher",
+              "children": [
+                {"name": "Kid", "size": 3812},
+                {"name": "Kid", "size": 743}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Teacher",
+          "children": [
+            {"name": "Kid", "size": 7074},
+            {"name": "Kid", "size": 7074},
+            {"name": "Kid", "size": 7074}
+          ]
+        }
+      ]
+    }
+  ]
+}

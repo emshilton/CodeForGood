@@ -1,0 +1,19 @@
+body{
+    background-color: #212121;
+}
+.main-container{
+    max-width: 1240px;
+    margin: auto;
+    padding: 0;
+    border: 10px solid black;
+    background-color: black;
+}
+.panel{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 9px solid black;
+}

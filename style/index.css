@@ -17,3 +17,8 @@ body{
     background-color: white;
     border: 9px solid black;
 }
+
+@font-face {
+    font-family:"ChalkDash";
+    src: url("../ChalkDash.ttf") /* TTF file for CSS3 browsers */
+}
